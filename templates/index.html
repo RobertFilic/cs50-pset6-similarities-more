@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+    <div class="container">
+        <h2>Compare Two Strings</h2>
+        <h4>Check how many steps are needed to convert one word to another</h4>
+
+            <form action="/score" method="post">
+                <div class="form-group">
+                  <label for="text">Enter the 1st word:</label>
+                  <input type="text" class="form-control" placeholder="'cat'" name="string1">
+                </div>
+                <div class="form-group">
+                  <label for="text">Enter the 2nd word:</label>
+                  <input type="text" class="form-control" placeholder="'dog'" name="string2">
+                </div>
+                <button type="submit" class="btn btn-default">Compare</button>
+            </form>
+    </div>
+
+{% endblock %}
