@@ -3,7 +3,7 @@
 
 My solution to CS50 similarities-more
 
-##Usage:
+## Usage:
 1. clone
 2. install requirements from requirements.txt
 3. in PyCharm or CLI (terminal) set flask app:
